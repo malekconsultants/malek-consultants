@@ -1,0 +1,20 @@
+body { margin: 0; font-family: sans-serif; background: #f4faff; color: #333; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+nav a { margin-left: 1.5rem; text-decoration: none; color: #333; font-weight: 500; }
+.logo img { height: 40px; }
+.hero { display: flex; justify-content: space-between; align-items: center; padding: 3rem 2rem; flex-wrap: wrap; }
+.hero-text { flex: 1 1 300px; max-width: 500px; }
+.hero-text h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.hero-text p { font-size: 1.1rem; margin-bottom: 1.5rem; }
+.hero-img img { max-width: 100%; border-radius: 8px; }
+.buttons .btn { padding: 0.6rem 1.2rem; margin-right: 1rem; text-decoration: none; background: #007acc; color: white; border-radius: 5px; }
+.buttons .btn-outline { background: white; color: #007acc; border: 1px solid #007acc; }
+.projects { padding: 2rem; background: #eaf6ff; }
+.projects h2 { text-align: center; font-size: 2rem; margin-bottom: 1rem; }
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.project-card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+.project-card img { width: 100%; border-radius: 6px; }
+.tag { display: inline-block; background: #eee; padding: 0.25rem 0.5rem; margin: 0.5rem 0; border-radius: 4px; font-size: 0.85rem; }
+.read-btn { display: inline-block; margin-top: 0.5rem; color: #007acc; font-weight: 500; text-decoration: none; }
+.contact { padding: 2rem; text-align: center; }
+footer { text-align: center; padding: 1rem; background: #dcebf9; font-size: 0.9rem; }
